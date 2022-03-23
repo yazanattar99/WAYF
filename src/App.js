@@ -2,10 +2,12 @@ import "./App.css";
 import Typewriter from "typewriter-effect";
 
 const bounceButtonStyle = {
-  backgroundColor: "grey",
-  color: "white",
+  backgroundColor: "greenyellow",
+  color: "black",
   margin: "100px 2px",
   cursor: "pointer",
+  // border: "2px solid #4CAF50",
+  borderRadius: "8px",
 };
 function BounceButton(props) {
   return (

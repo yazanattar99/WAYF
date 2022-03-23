@@ -5,6 +5,7 @@ const bounceButtonStyle = {
   backgroundColor: "grey",
   color: "white",
   margin: "100px 2px",
+  cursor: "pointer",
 };
 function BounceButton(props) {
   return (
